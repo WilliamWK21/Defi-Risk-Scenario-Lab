@@ -129,7 +129,7 @@ These contracts provide the **ground-truth rule sets** that the Python engine mi
 
 The simulation engine consists of:
 
-### **a. Market Generator**
+### **A. Market Generator**
 
 Creates price/shock paths:
 
@@ -138,7 +138,7 @@ Creates price/shock paths:
 * Liquidity drains (future feature)
 * Volatility spikes (planned)
 
-### **b. Protocol Mirrors**
+### **B. Protocol Mirrors**
 
 Re-implement Solidity logic in Python for speed:
 
@@ -146,7 +146,7 @@ Re-implement Solidity logic in Python for speed:
 * Lending pool health evaluated continuously
 * Liquidations executed deterministically
 
-### **c. Metrics Module**
+### **C. Metrics Module**
 
 Computes:
 
@@ -156,7 +156,7 @@ Computes:
 * drawdown (planned)
 * impermanent loss (planned)
 
-### **d. Snapshot Collector**
+### **D. Snapshot Collector**
 
 Every timestep records structured simulation state:
 
